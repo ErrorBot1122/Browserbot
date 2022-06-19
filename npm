@@ -1,0 +1,1 @@
+~/Browserbot-1/node_modules/node/bin/node ~/Browserbot-1/node_modules/npm/bin/npm-cli.js $@

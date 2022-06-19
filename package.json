@@ -1,0 +1,43 @@
+{
+  "name": "browserbot",
+  "version": "1.0.0",
+  "description": "A discord bot that can comt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bash node index.js",
+    "dev": "nodemon start.sh"
+  },
+  "author": "Errorbot1122",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "dotenv": "^16.0.1",
+    "express": "latest",
+    "puppeteer": "^14.4.1",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "puppeteer-hcaptcha": "^3.0.6",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "npm": "^8.12.2"
+  },
+  "nodemonConfig": {
+    "execMap": {
+      "sh": "bash"
+    },
+    "ext": "js, json, sh",
+    "ignore": [
+      "test/*",
+      "docs/*",
+      ".replit",
+      "replit.nix",
+      "**/package-lock.json",
+      "**/package.json"
+    ],
+    "delay": 500
+  }
+}
