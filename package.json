@@ -1,7 +1,7 @@
 {
   "name": "browserbot",
   "version": "1.0.0",
-  "description": "A discord bot that can comt",
+  "description": "A discord bot that can control a browser (currently only for personal controlling altrenos)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
     "yarn": "^1.22.18"
   },
   "devDependencies": {
-    "node": "^17.7.2",
+    "node": "^18.4.0",
     "nodemon": "^2.0.16",
     "npm": "^8.12.2"
   },
